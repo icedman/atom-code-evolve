@@ -1,5 +1,5 @@
 # code-evolve package
 
-A short description of your package.
+Animates a 'git log -p' by simulating typing. It take input from a git log ouput saved on the clipboard.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+The package only visualizes the code changes. It does not contain an accurate diff parser or interpreter.
