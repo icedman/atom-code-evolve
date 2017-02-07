@@ -1,10 +1,12 @@
 {
   "name": "code-evolve",
   "main": "./lib/code-evolve",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Animates a 'git log -p' by simulating typing. It take input from a git log ouput saved on the clipboard.",
   "keywords": [
-    "git log", "animation", "code evolution"
+    "git log",
+    "animation",
+    "code evolution"
   ],
   "activationCommands": {
     "atom-workspace": "code-evolve:toggle"
@@ -14,6 +16,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
