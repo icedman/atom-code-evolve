@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle code-evolve",
+        "command": "code-evolve:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "code-evolve",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "code-evolve:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
